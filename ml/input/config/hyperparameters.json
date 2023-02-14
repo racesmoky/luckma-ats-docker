@@ -1,0 +1,42 @@
+{
+  "train": {
+    "num_features": 6,
+    "num_epoch": 10,
+    "batch_size": 64,
+
+    "past_history": 60,
+    "future_target": 3,
+    "shift": 1,
+    "step": 1,
+    "shuffle_repeat": true,
+    "save_summary_steps": 25,
+    "log_step_count_steps": 25,
+
+    "test_size": 0.2,
+    "val_size": 0.2,
+
+    "train_channel_name": "train",
+    "eval_channel_name": "evaluation",
+    "test_channel_name": "validation"
+  },
+  "model": {
+    "learning_rate": 0.00003,
+
+    "hidden_1_units": 10,
+    "hidden_1_return_sequences": true,
+    "hidden_1_kernel_regularizer": null,
+    "hidden_1_recurrent_regularizer": null,
+    "hidden_1_dropout": 0.2,
+
+    "hidden_2_units": 5,
+    "hidden_2_return_sequences": false,
+    "hidden_2_kernel_regularizer": null,
+    "hidden_2_recurrent_regularizer": null,
+    "hidden_2_dropout": 0.025,
+
+    "output_units": 3,
+
+    "optimizer_func": "RMSprop",
+    "loss_func": "mae"
+    }
+}

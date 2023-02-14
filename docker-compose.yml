@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  tensorflow-serving:
+    image: luxurymaster/luckma:tensorflow-serving-r2.1-cpu-mkl
+    restart: unless-stopped
+    ports:
+    - 8500:8500
+    - 8501:8501
+    volumes:
+    - C:\Users\luxurymaster\PycharmProjects\luckma-ats-docker\ml\model_export\adx:/models/adx
+    - C:\Users\luxurymaster\PycharmProjects\luckma-ats-docker\model_config.config:/models/model_config.config
+    command: --model_config_file=/models/model_config.config

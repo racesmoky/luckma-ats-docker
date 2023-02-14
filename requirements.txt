@@ -1,0 +1,30 @@
+# Run pip install -r requirements.txt
+pathlib2
+
+# configuration
+yaml
+
+# numerical operations
+numpy
+
+# to work with the data
+pandas
+
+# local package
+-e .
+
+# external requirements
+click
+dotenv
+flake8
+python-dotenv>=0.5.1
+
+# for yaml double strings
+ruamel.yaml
+
+# pip install
+tensorflow-gpu==2.1.0
+tensorflow-serving-api
+
+
+

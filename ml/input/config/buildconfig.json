@@ -1,0 +1,24 @@
+{
+  "aws": {
+    "sagemaker": {
+      "Version": "v2.1"
+    }
+  },
+  "localhost": {
+    "nvidia": {
+      "Version": "v10.1"
+    },
+    "tensorflow-serving": {
+      "Version": "v2.1",
+      "TFServingBranch": "r2.1",
+      "TFServingGPCPortRange": "8500:8500",
+      "TFServingRestPortRange": "8501:8501",
+      "TFServingModelPlatform": "tensorflow",
+      "DockerComposeFileName": "docker-compose.yml",
+      "DockerComposeVersion": "3.8",
+      "DockerContainerModelDir": "/models/",
+      "DockerServiceName": "tensorflow-serving",
+      "ModelConfigFileName": "model_config.config"
+    }
+  }
+}

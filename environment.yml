@@ -1,0 +1,14 @@
+name: tf21
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - pandas
+  - pathlib2
+  - flask
+  - click
+  - python-dotenv
+  - yaml
+  - ruamel.yaml
+  - tensorflow-gpu=2.1.0
