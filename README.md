@@ -1,5 +1,5 @@
 ------------
-Overview for LuckMa Machine Learning Library - https://www.luckma.io
+LuckMa Machine Learning Library Showcase Overview - https://www.luckma.io
 ------------
 - Multiclass machine learning models compilation architecture - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/build.py
 - Tensorflow RNN estimator implementation - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/train.py
