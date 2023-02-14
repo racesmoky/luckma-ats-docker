@@ -2,7 +2,7 @@
 Overview for LuckMa Machine Learning Library - https://www.luckma.io
 ------------
 - Multiclass machine learning models compilation architecture - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/build.py
-- Tensorflow 2.1 RNN estimator implementation - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/train.py
+- Tensorflow RNN estimator implementation - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/train.py
 - Tensorflow Serving CPU/GPU using Docker
 - Shell script to install all NVidia Cuda libraries - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/build/install_packages.sh
 
