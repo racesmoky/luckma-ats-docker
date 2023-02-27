@@ -2,7 +2,7 @@
 LuckMa Machine Learning Library Showcase Overview - https://www.luckma.io
 ------------
 - Multiclass machine learning models compilation architecture - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/build.py
-- Bigdata Spark Data Transformation - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/transform.py
+- Spark Data Bigdata Transformation - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/transform.py
 - Tensorflow RNN estimator implementation - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/train.py
 - Tensorflow Serving CPU/GPU using Docker - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/code/serve.py
 - Shell script to install all NVidia Cuda libraries - https://github.com/racesmoky/luckma-ats-docker/blob/main/ml/build/install_packages.sh
